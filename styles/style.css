@@ -1,0 +1,113 @@
+/* Reset default margin and padding on all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a base font size and family to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #789FDB;
+    text-align: center;
+}
+
+/* Container for Content */
+.container {
+    max-width: 1600px; /* Set max-width for content container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding for spacing */
+}
+
+/* Header Styles */
+header {
+    background-color: #094fbd;
+    padding: 20px;
+    position: relative; /* Allows positioning of child elements */
+}
+
+#logo_link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.logo {
+    max-width: 80px;
+    height: auto;
+    margin: 0 auto; /* Center horizontally */
+    display: block; /* Ensures the logo is centered */
+}
+
+#hero-img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto; /* Center horizontally */
+    display: block; /* Ensures the hero image is centered */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Empty div with id "background" and a specified height */
+#background {
+    height: 725px;
+    background-color: #fff; /* Add a background color if needed */
+}
+footer {
+    background-color: #094fbd;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+    .home-grid {
+ padding: 20px;
+     text-align: center;
+}
+
+.msg {
+    background-color: #789FDB;
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+.msg h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    background-color: #094fbd;
+}
+
+
+
+.join {
+    display: inline-block;
+    background-color: #094fbd;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.join:hover {
+    background-color: #094fbd;
+}
+
